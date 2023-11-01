@@ -1,0 +1,7 @@
+services:
+  - name: api
+    env:
+      - key: PORT
+        value: "8000" 
+    buildCommand: npm install
+    startCommand: npm start
